@@ -22,7 +22,15 @@ $(function(){
   $('#reset_total').click(function(){
     // changing the varible back to zero
     chrome.storage.sync.set({'total':0},function(){
-      close();
+      var notif = {
+        type:'basic', // there are diff tyoes of notifs
+        iconUrl:'icon_48.png',
+        title:'Total Reset',
+        message:'Total Reset to zero'
+      };
+
+      chrome.notifications.create('limit_notif',notif);
+
     });
   });
 });

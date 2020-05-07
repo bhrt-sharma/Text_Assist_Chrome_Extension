@@ -24,7 +24,8 @@
   "content_security_policy": "script-src 'self' 'unsafe-eval' https://cdn.jsdelivr.net; object-src 'self'",
 
   "permissions":[
-    "storage"
+    "storage",
+    "notifications"
   ],
 
   "options_page" : "right_click.html"
