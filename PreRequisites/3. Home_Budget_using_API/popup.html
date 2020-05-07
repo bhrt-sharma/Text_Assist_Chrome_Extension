@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+  <html>
+      <head>
+          <title>Home Budjet Tracker</title>
+          <script src="jquery-3.5.1.min.js">
+
+          </script>
+          <script src="popup.js">
+
+          </script>
+
+          <link rel="stylesheet" type="text/css" href="style.css">
+      </head>
+      <body>
+          <h2> Total Spend: <span id ="total"> 0 </span></h2>
+          <!-- The <span> tag provides no visual change by itself, but when it is marked,
+           you can style it with CSS, or manipulate it with JavaScript. -->
+
+          <h2 > Limit: <span id="limit"> 0</span></h2>
+          <h3> Enter amount </h3>
+          <input id="input" type="text"/>
+          <input id="submit" type="submit" value="Spend / Wasted"/>
+          <!-- to store values we have to use chrome storage API's -->
+          <!-- when we click the submit button it will call the API to store varibles-->
+          <!-- and at later point we can retrieve values using GET METHOD -->
+      </body>
+</html>
+
+<!-- 1. The manifest file calls popup.html file  -->
+
+<!-- 2. the html file calls popup.js script and also uses jquery-3 which we downloaded fromm there(Jquery) site -->
+
+<!-- 3. The popup body of the extension has 2 things  -->
+      <!-- a) a heading H2 with a id = "Hello_ID" -->
+      <!-- b) a input -->
+
+<!-- when we make changes to js or html files there is no need to reload the extension -->
