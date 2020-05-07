@@ -23,9 +23,14 @@
   },
   "content_security_policy": "script-src 'self' 'unsafe-eval' https://cdn.jsdelivr.net; object-src 'self'",
 
+  "background":{
+    "scripts":["eventPage.js"]
+  },
+
   "permissions":[
     "storage",
-    "notifications"
+    "notifications",
+    "contextMenus"
   ],
 
   "options_page" : "right_click.html"
