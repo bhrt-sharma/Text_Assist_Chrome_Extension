@@ -2,4 +2,4 @@
 This is a simple extension which you can use in developer mode and can see the sentiment analysis of your past searches in chrome browser.
 
 
-##### The codes in the Preresite are inspired by "Codevolution" the YouTuber.
+##### The codes in the prerequisite are inspired by "Codevolution" the YouTuber.
