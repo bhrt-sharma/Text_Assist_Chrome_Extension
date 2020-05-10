@@ -1,6 +1,6 @@
 var menuItem = {
-    "id": "Wikit",
-    "title": "Wikit",
+    "id": "Wiki_Dict",
+    "title": "wikipedia Dictonary",
     "contexts": ["selection"]
 };
 
@@ -11,15 +11,15 @@ function fixedEncodeURI (str) {
 }
 
 chrome.contextMenus.onClicked.addListener(function(clickData){
-    if (clickData.menuItemId == "Wikit" && clickData.selectionText){
+    if (clickData.menuItemId == "Wiki_Dict" && clickData.selectionText){
         var wikiUrl = "https://en.wikipedia.org/wiki/" + fixedEncodeURI(clickData.selectionText);
         var createData = {
             "url": wikiUrl,
             "type": "popup",
             "top": 5,
             "left": 5,
-            "width": screen.availWidth/2,
-            "height": screen.availHeight/2
+            "width": 475,
+            "height": 350
         };
         chrome.windows.create(createData, function(){});
     }
