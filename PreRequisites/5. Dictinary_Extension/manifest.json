@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name":"Hello_world",
+  "name":"Wiki Dictonary",
   "version":"1.0",
 
 
@@ -23,5 +23,7 @@
   "permissions":[
     "tabs",
     "contextMenus"
-  ]
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://cdn.jsdelivr.net; object-src 'self'"
+
 }
