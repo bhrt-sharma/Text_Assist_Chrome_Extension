@@ -8,9 +8,10 @@
 ##### Step 1 : Clone the repository
 
 ##### Step 2 : Go to [chrome://extensions/](chrome://extensions/)
-##### 2.1 : Then click on Load unpacked 
-##### 2.2 : Then browse to the clone directory and select the "Text_Assist" Folder
-##### 2.3 : Then click open
+##### 2.1 : Turn on the Developer Mode
+##### 2.1 : Click on Load unpacked 
+##### 2.2 : Browse to the clone directory and select the "Text_Assist" Folder
+##### 2.3 : Click open
 
 ![](Snaps_for_Readme/browse.png)
 
