@@ -19,7 +19,7 @@
 ##### Step 3 : Run the local Flask server by navigating to the [Text_Assist_Chrome_Extension/Flask_server_for_Text_Assist/](https://github.com/bhrt-sharma/Text_Assist_Chrome_Extension/tree/master/Flask_server_for_Text_Assist) directory in your local environment.
 ![](Snaps_for_Readme/Flask_server.png)
 
-#### Hurray! (if you didn't got any errors you can use the extension)
+#### Hurray! (if you didn't get any errors you can use the extension)
 
 ##### Step 4: So you just need to select the text on browser screen and right click to choose the extension "Text Assist"
 
