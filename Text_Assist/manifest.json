@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "TextAssist",
+  "description": "Get insights about your text on the go!",
+  "version": "1.0",
+  "icons": {
+    "128": "icon128.png",
+    "48": "icon48.png",
+    "16": "icon16.png"
+  },
+
+  "background": {
+    "scripts": ["eventPage.js"]
+  },
+
+  "permissions": [
+          "tabs",
+          "contextMenus"
+        ]
+}
