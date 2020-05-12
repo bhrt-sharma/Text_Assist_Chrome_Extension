@@ -24,12 +24,15 @@
 
 #### Hurray! (if you didn't get any errors you can use the extension)
 
-##### Step 4: So you just need to select the text on browser screen and right click to choose the extension "Text Assist"
+```diff
++  Step 4: So you just need to select the text on browser screen and right click to choose the extension "Text Assist" 
+```
 
 ![](Snaps_for_Readme/selection.png)
 
-##### Step 5: You will get the results
-
+```diff
++  Step 5: You will get the results
+```
 ![](Snaps_for_Readme/score.png)
 
 
