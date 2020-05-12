@@ -1,0 +1,19 @@
+ # Library dependencies for the python code.  You need to install these with
+# `pip install -r requirements.txt` before you can run this.
+
+#### ESSENTIAL LIBRARIES FOR MAIN FUNCTIONALITY ####
+
+# Flask version used
+Flask==1.1.2
+
+# Python version
+
+python>=3.7
+
+# Text Processing
+
+textstat=0.6.2
+
+
+
+
