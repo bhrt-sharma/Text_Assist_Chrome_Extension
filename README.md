@@ -1,6 +1,7 @@
 # Text Assist 1.0.0
 ```diff
 - Please give a star if you like the repo! 
+- Looking for colaboration
 ```
 ## A chrome extension to help you analyse your documents.
 
