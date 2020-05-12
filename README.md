@@ -1,5 +1,10 @@
 # Text Assist 1.0.0
-### Please give a star if you like the repo! 
+```diff
+- Please give a star if you like the repo! 
++ text in green
+! text in orange
+# text in gray
+```
 ## A chrome extension to help you analyse your documents.
 
 ### Usage :
