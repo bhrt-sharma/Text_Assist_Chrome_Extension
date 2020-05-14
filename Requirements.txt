@@ -8,12 +8,11 @@ Flask==1.1.2
 
 # Python version
 
-python>=3.7
+python>=3.4
 
 # Text Processing
 
 textstat=0.6.2
-
-
-
-
+nltk >=3.0.2
+sumy==0.8.1
+textblob=0.15.3
