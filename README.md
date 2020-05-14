@@ -46,7 +46,7 @@
 #### Article Redability score:
 ![](Snaps_for_Readme/score.png)
 
-#### Summary:
+#### Summary result:
 
 ![](Snaps_for_Readme/Summary.png)
 
