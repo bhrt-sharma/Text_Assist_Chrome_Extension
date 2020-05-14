@@ -11,6 +11,7 @@
 - [x] Article Summary.
 - [x] Article Sentiment/Polarity.
 - [x] Article Spelling Correction.
+- [ ] Highlight corrected words (before/after correction).
 - [ ] Article Rewrite.
 - [ ] Synonyms generator.
 - [ ] Tags recommendation.
