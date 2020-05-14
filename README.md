@@ -53,6 +53,8 @@
 
 ![](Snaps_for_Readme/Summary.png)
 
+#### 3) Spell Correction result:
 
+![](Snaps_for_Readme/corrections.png)
 
 ###### PS : The codes in the prerequisite are inspired by "Codevolution" the YouTuber.
