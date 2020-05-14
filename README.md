@@ -5,6 +5,15 @@
 ```
 ## A chrome extension to help you analyse your documents.
 
+### Tasks
+
+- [x] Article readability score (0-100)
+- [x] Article Summary.
+- [ ] Article Rewrite.
+- [ ] Synonyms generator.
+- [ ] Tags recommendation.
+- [ ] Similar Documents over internet.
+
 ### Usage :
 ##### Step 1 : Clone the repository
 
