@@ -45,9 +45,9 @@
 ```
 ![](Snaps_for_Readme/score.png)
 
-#### example 2 
+#### Summary:
 
-![](Snaps_for_Readme/low_score.png)
+![](Snaps_for_Readme/Summary.png)
 
 
 
