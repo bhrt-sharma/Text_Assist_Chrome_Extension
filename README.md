@@ -43,10 +43,10 @@
 ```diff
 +  Step 5: You will get the results
 ```
-#### Article Redability score:
+#### 1) Article Redability score:
 ![](Snaps_for_Readme/score.png)
 
-#### Summary result:
+#### 2) Summary result:
 
 ![](Snaps_for_Readme/Summary.png)
 
