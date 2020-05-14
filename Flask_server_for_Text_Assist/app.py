@@ -1,12 +1,12 @@
-from flask import Flask
+from flask import Flask, render_template,request
 import textstat
 textstat.set_lang('en')
 
 app = Flask(__name__)
 
 @app.route('/')
-def fun():
-    return ("This is the home page of the Chrome Extension")
+def index():
+    return render_template('index.html')
 
 @app.route('/find/<text>')
 def analyze(text):
@@ -26,7 +26,7 @@ def analyze(text):
         ease= "Difficult"
     else:
         ease="Very confusing"
-    return ("<H2>Your document is {} to read with score of {} out of 100</H2>".format(ease,flu))
+    return render_template('preview.html',ease=ease,flu=flu)
 
 if __name__ == "__main__":
 	app.run(debug=True)
