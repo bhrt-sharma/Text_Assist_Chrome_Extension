@@ -10,6 +10,7 @@
 - [x] Article readability score (0-100)
 - [x] Article Summary.
 - [x] Article Sentiment/Polarity.
+- [x] Article Spelling Correction.
 - [ ] Article Rewrite.
 - [ ] Synonyms generator.
 - [ ] Tags recommendation.
